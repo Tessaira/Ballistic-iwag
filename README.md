@@ -22,5 +22,5 @@ concept: pending
 implementation: pending
 
 <div>
-<img src="./Screeshots/screenshot_screen2.jpeg">
+<img src="./Screenshots/screenshot_screen2.jpeg">
 </div>
