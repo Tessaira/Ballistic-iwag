@@ -19,7 +19,7 @@ other links:
 WIP - 
 idea: done 
 concept: pending
-implementation: pending
+implementation: in progress
 
 <div>
 <img src="./Screenshots/screenshot_screen2.jpeg">
