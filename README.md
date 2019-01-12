@@ -14,10 +14,15 @@ Resources:
 Music:
 Sound:
 Visuals: https://www.cse.iitb.ac.in/~shrey/img/02.png , except no bricks
+
 Tutorials I've used:
+
 https://unity3d.com/de/learn/tutorials/topics/physics/bouncing-ball
+
 https://www.youtube.com/watch?v=Emyx-54Oim4&t=213s
+
 https://www.youtube.com/watch?v=WaDUUIo4iSw
+
 https://www.youtube.com/watch?v=izl5VUm2Frk
 
 WIP - 
