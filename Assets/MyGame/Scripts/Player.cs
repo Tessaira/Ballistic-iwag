@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
+    public float speed;
+
+    //create variable rb
+    Rigidbody2D rb;
+
 	// Use this for initialization
 	void Start () {
-		
+        rb = GetComponent<Rigidbody2D>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
+
+    void FixedUpdate()
+    {
+        float move = Input.GetAxis("Horizontal"); //a or left = -1 d or right = 1
+
+        rb.velocity = new Vector2(speed * move, rb.velocity.y);
+    }
 }
 
 // Steuerung des Players (Arrowkeys für links und rechts)
