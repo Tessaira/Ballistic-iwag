@@ -21,9 +21,13 @@ public class Player : MonoBehaviour {
 
     void FixedUpdate()
     {
-        float move = Input.GetAxis("Horizontal"); //a or left = -1 d or right = 1
-
-        rb.velocity = new Vector2(speed * move, rb.velocity.y);
+        
+       float move = Input.GetAxis("Horizontal"); //a or left = -1 d or right = 1
+       //Vector2 movement = new Vector2(move * speed, 0);
+       //rb.AddForce(movement);
+       rb.velocity = new Vector2(speed * move, rb.velocity.y);
+        
+    
     }
 }
 
