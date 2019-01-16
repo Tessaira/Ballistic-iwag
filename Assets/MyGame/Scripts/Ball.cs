@@ -6,7 +6,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
 
     //config parameters
-    public Ball paddle1;
+    public  paddle1;
     public float xPush = 2f;
     public float yPush = 15f;
     public float randomFactor = 0.2f;
