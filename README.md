@@ -1,4 +1,4 @@
-# BouncyBall-iwag
+# Ballistic-iwag
 
 The game Ballistic is a rather simple 2D Game. It consists of a ball and a platform, the goal is to not let the ball drop out of the screen's bottom edge. This is done by moving the platform on the x-Axis using the left and right arrowkeys, "catching" the ball and bouncing it back into the screen. Start and Retry button are clicked using the mouse/touchpad and direct you into the active game. 
 
