@@ -6,7 +6,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
 
     //config parameters
-    public  paddle1;
+    public  platform;
     public float xPush = 2f;
     public float yPush = 15f;
     public float randomFactor = 0.2f;
@@ -21,7 +21,7 @@ public class Ball : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        paddleToBallVector = transform.position - paddle1.transform.position;
+       // paddleToBallVector = transform.position - paddle1.transform.position;
         myRigidBody2D = GetComponent<Rigidbody2D>();
     }
 
@@ -31,7 +31,7 @@ public class Ball : MonoBehaviour {
         if (!hasStarted)
         {
             LockBallToPaddle();
-            LaunchOnMouseClick;
+          //  LaunchOnMouseClick;
         }
     }
 
@@ -46,15 +46,15 @@ public class Ball : MonoBehaviour {
 
     private void LockBallToPaddle()
     {
-        Vector2 paddlePosition = new Vector2(paddle1.transform.position.x, paddle1.transform.position.y);
-        transform.position = paddlePosition + paddleToBallVector;
+       // Vector2 paddlePosition = new Vector2(paddle1.transform.position.x, paddle1.transform.position.y);
+       // transform.position = paddlePosition + paddleToBallVector;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Vector2 velocityTweak = new Vector2
-            (UnityEngine.Random.Range(0f, randomFactor),
-            UnityEngine.Random(0f, randomFactor));
+           // (UnityEngine.Random.Range(0f, randomFactor),
+          //  UnityEngine.Random(0f, randomFactor));
 
         if (hasStarted)
         {
