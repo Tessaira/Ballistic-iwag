@@ -2,6 +2,8 @@
 
 The game Ballistic is a rather simple 2D Game. It consists of a ball and a platform, the goal is to not let the ball drop out of the screen's bottom edge. This is done by moving the platform on the x-Axis using the left and right arrowkeys, "catching" the ball and bouncing it back into the screen. Start and Retry button are clicked using the mouse/touchpad and direct you into the active game. 
 
+My newest addition, a counter, allows you to see your current score! I am planning to expand this feature so you are also able to see that score in the game over screen.
+
 Development Platform:
 Win 10
 
