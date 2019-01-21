@@ -1,64 +1,42 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Ball : MonoBehaviour {
-
-    //config parameters
-    public  platform;
-    public float xPush = 2f;
-    public float yPush = 15f;
-    public float randomFactor = 0.2f;
-
-    //state
-    Vector2 paddleToBallVector;
+public class Ball : MonoBehaviour
+{
+    private Rigidbody2D myRigidBody2D;
+    private SceneLoader sceneLoader;
     private bool hasStarted = false;
 
-    //cached component references
-    Rigidbody2D myRigidBody2D;
+    public float xPush = 2f, yPush = 10f;
+    public float randomFactor = 3f;
 
-    // Use this for initialization
     void Start()
     {
-       // paddleToBallVector = transform.position - paddle1.transform.position;
         myRigidBody2D = GetComponent<Rigidbody2D>();
+        sceneLoader = FindObjectOfType<SceneLoader>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (!hasStarted)
-        {
-            LockBallToPaddle();
-          //  LaunchOnMouseClick;
-        }
-    }
-
-    private void LaunchOnMouseCLick()
-    {
-        if (Input.GetMouseButtonDown(0))
         {
             hasStarted = true;
             myRigidBody2D.velocity = new Vector2(xPush, yPush);
         }
     }
 
-    private void LockBallToPaddle()
-    {
-       // Vector2 paddlePosition = new Vector2(paddle1.transform.position.x, paddle1.transform.position.y);
-       // transform.position = paddlePosition + paddleToBallVector;
-    }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Vector2 velocityTweak = new Vector2
-           // (UnityEngine.Random.Range(0f, randomFactor),
-          //  UnityEngine.Random(0f, randomFactor));
-
+                                 (UnityEngine.Random.Range(-randomFactor, randomFactor),
+                                  UnityEngine.Random.Range(-randomFactor, randomFactor));
         if (hasStarted)
         {
             myRigidBody2D.velocity += velocityTweak;
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        sceneLoader.LoadGameOver();
     }
 }

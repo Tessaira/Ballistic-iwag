@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour { //ermöglicht, skripte als komponenten hnzuzufügen
+public class Paddle : MonoBehaviour { //ermöglicht, skripte als komponenten hnzuzufügen
 
     public float speed;
     public float minPosLeft;
     public float maxPosRight;
     public float padding;
    
-    //create variable rb
-    //Rigidbody2D rb;
 
 	// Use this for initialization
 	void Start () {
