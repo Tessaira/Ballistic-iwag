@@ -13,17 +13,9 @@ public class SceneLoader : MonoBehaviour {
 
     }
 
-
-    [SerializeField] private string loadLevel;
-
-    //look for other collider
-    void OnTriggerEnter2D(Collider2D other)
+    public void LoadGameOver()
     {
-        if (other.CompareTag("Player"))
-        {
-            // load GameOver level
-              SceneManager.LoadScene(loadLevel);
-        }
+        SceneManager.LoadScene("GameOver");
     }
     
 
