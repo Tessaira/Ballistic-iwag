@@ -18,11 +18,14 @@ Visuals: https://www.cse.iitb.ac.in/~shrey/img/02.png , except no bricks
 
 Fonts I've used:
 
-https://www.dafont.com/anarchy.font
+[Anarchy] (https://www.dafont.com/anarchy.font) 
+-used for Buttons
 
-https://www.dafont.com/jo-wrote-a-lovesong.font
+[Jo Wrote A Lovesong] (https://www.dafont.com/jo-wrote-a-lovesong.font) 
+-used for headings
 
-https://fontmeme.com/fonts/scratch-font-font/
+[Scratch] (https://fontmeme.com/fonts/scratch-font-font/) 
+-used for score
 
 Tutorials I've used:
 
