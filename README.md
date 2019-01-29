@@ -16,6 +16,14 @@ Windows Standalone
 
 Visuals: https://www.cse.iitb.ac.in/~shrey/img/02.png , except no bricks
 
+Fonts I've used:
+
+https://www.dafont.com/anarchy.font
+
+https://www.dafont.com/jo-wrote-a-lovesong.font
+
+https://fontmeme.com/fonts/scratch-font-font/
+
 Tutorials I've used:
 
 https://unity3d.com/de/learn/tutorials/topics/physics/bouncing-ball
