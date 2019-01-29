@@ -4,20 +4,27 @@ The game Ballistic is a rather simple 2D Game. It consists of a ball and a platf
 
 My newest addition, a counter, allows you to see your current score! I am planning to expand this feature so you are also able to see that score in the game over screen.
 
-Development Platform:
+### Development Platform:
+
 Win 10
 
-Unity version: 2018.2.18f1
+### Unity version:
 
-Visual Studio Version: 15.9.4
+2018.2.18f1
 
-Target Platform:
+### Visual Studio Version: 
+
+15.9.4
+
+### Target Platform:
+
 Windows Standalone
 
-Visuals: 
+### Visuals: 
+
 like [so](https://www.cse.iitb.ac.in/~shrey/img/02.png) , except no bricks
 
-Fonts I've used:
+### Fonts I've used:
 
 [Anarchy](https://www.dafont.com/anarchy.font) 
 -used for Buttons
@@ -28,17 +35,17 @@ Fonts I've used:
 [Scratch](https://fontmeme.com/fonts/scratch-font-font/) 
 -used for score
 
-Tutorials I've used:
+### Tutorials I've used:
 
-[Bounce Material](https://unity3d.com/de/learn/tutorials/topics/physics/bouncing-ball) 
+[bounce material](https://unity3d.com/de/learn/tutorials/topics/physics/bouncing-ball) 
 
-https://www.youtube.com/watch?v=Emyx-54Oim4&t=213s
+[movements](https://www.youtube.com/watch?v=Emyx-54Oim4&t=213s) 
 
-https://www.youtube.com/watch?v=WaDUUIo4iSw
+[buttons](https://www.youtube.com/watch?v=WaDUUIo4iSw) 
 
-https://www.youtube.com/watch?v=izl5VUm2Frk
+[gams over trigger](https://www.youtube.com/watch?v=izl5VUm2Frk) 
 
-progress - finished
+progress - 105% finished
 
 idea: done 
 
