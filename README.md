@@ -14,22 +14,23 @@ Visual Studio Version: 15.9.4
 Target Platform:
 Windows Standalone
 
-Visuals: https://www.cse.iitb.ac.in/~shrey/img/02.png , except no bricks
+Visuals: 
+like [so](https://www.cse.iitb.ac.in/~shrey/img/02.png) , except no bricks
 
 Fonts I've used:
 
-[Anarchy] (https://www.dafont.com/anarchy.font) 
+[Anarchy](https://www.dafont.com/anarchy.font) 
 -used for Buttons
 
-[Jo Wrote A Lovesong] (https://www.dafont.com/jo-wrote-a-lovesong.font) 
+[Jo Wrote A Lovesong](https://www.dafont.com/jo-wrote-a-lovesong.font) 
 -used for headings
 
-[Scratch] (https://fontmeme.com/fonts/scratch-font-font/) 
+[Scratch](https://fontmeme.com/fonts/scratch-font-font/) 
 -used for score
 
 Tutorials I've used:
 
-https://unity3d.com/de/learn/tutorials/topics/physics/bouncing-ball
+[Bounce Material](https://unity3d.com/de/learn/tutorials/topics/physics/bouncing-ball) 
 
 https://www.youtube.com/watch?v=Emyx-54Oim4&t=213s
 
