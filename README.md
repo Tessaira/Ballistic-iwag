@@ -38,12 +38,18 @@ like [so](https://www.cse.iitb.ac.in/~shrey/img/02.png) , except no bricks
 ### Tutorials I've used:
 
 [bounce material](https://unity3d.com/de/learn/tutorials/topics/physics/bouncing-ball) 
+-used for ball
 
 [movements](https://www.youtube.com/watch?v=Emyx-54Oim4&t=213s) 
+-used for pedal movements
 
 [buttons](https://www.youtube.com/watch?v=WaDUUIo4iSw) 
+-used to start/retry game
 
 [gams over trigger](https://www.youtube.com/watch?v=izl5VUm2Frk) 
+-pretty much self-explanatory
+
+---
 
 progress - 105% finished
 
