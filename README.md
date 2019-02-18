@@ -109,6 +109,7 @@ Here, the updated graphics can be seen. The Screenshots are snippets straight fr
 <img src="./Screenshots/GameOverSs.JPG">
 </div>
 
-Additional Note: I've learnt to not underastimate simple things, even such that seem as foolproof as borders. take your time and plan accordingly.
+
+Additional Note: I've learnt to not underestimate simple things, even such that seem as foolproof as borders. take your time and plan accordingly.
 
 © by me
