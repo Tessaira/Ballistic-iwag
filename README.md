@@ -4,29 +4,59 @@ The game Ballistic is a rather simple 2D Game. It consists of a ball and a platf
 
 My newest addition, a counter, allows you to see your current score! I am planning to expand this feature so you are also able to see that score in the game over screen.
 
-Development Platform:
+--- 
+## Want to try the game?
+
+Well, look no further, a WebGL-Version can be found [here](https://www.sharemygame.com/share/4d999891-01b0-47db-bcf8-b37e429d6a15). Do keep in mind however that this is optimised for Windows Standalone resulting in somewhat awkward borders.
+
+### Development Platform:
+
 Win 10
 
-Unity version: 2018.2.18f1
+### Unity version:
 
-Visual Studio Version: 15.9.4
+2018.2.18f1
 
-Target Platform:
+### Visual Studio Version: 
+
+15.9.4
+
+### Target Platform:
+
 Windows Standalone
 
-Visuals: https://www.cse.iitb.ac.in/~shrey/img/02.png , except no bricks
+### Visuals: 
 
-Tutorials I've used:
+like [so](https://www.cse.iitb.ac.in/~shrey/img/02.png) , except no bricks
 
-https://unity3d.com/de/learn/tutorials/topics/physics/bouncing-ball
+### Fonts I've used:
 
-https://www.youtube.com/watch?v=Emyx-54Oim4&t=213s
+[Anarchy](https://www.dafont.com/anarchy.font) 
+-used for Buttons
 
-https://www.youtube.com/watch?v=WaDUUIo4iSw
+[Jo Wrote A Lovesong](https://www.dafont.com/jo-wrote-a-lovesong.font) 
+-used for headings
 
-https://www.youtube.com/watch?v=izl5VUm2Frk
+[Scratch](https://fontmeme.com/fonts/scratch-font-font/) 
+-used for score
 
-progress - finished
+### Tutorials I've used:
+
+[bounce material](https://unity3d.com/de/learn/tutorials/topics/physics/bouncing-ball) 
+-used for ball
+
+[movements](https://www.youtube.com/watch?v=Emyx-54Oim4&t=213s) 
+-used for pedal movements
+
+[buttons](https://www.youtube.com/watch?v=WaDUUIo4iSw) 
+-used to start/retry game
+
+[game over trigger](https://www.youtube.com/watch?v=izl5VUm2Frk) 
+-pretty much self-explanatory
+
+---
+
+progress - 105% finished
 
 idea: done 
 
@@ -34,6 +64,32 @@ concept: done
 
 implementation: done
 
+---
+
+### First Concept:
+
+At this point, the game was still called "BouncyBall". Additionally, the graphics have been altered in order to fit in with the games new and current name "Ballistic".
 <div>
-<img src="./Screenshots/screenshot_screen2.jpeg">
+<img src="./Screenshots/ConceptSs.jpeg">
+</div>
+
+### Final Implementation:
+
+Here, the updated graphics can be seen. The Screenshots are snippets straight from the final game.
+
+#1 | "Welcome"
+
+<div>
+<img src="./Screenshots/WelcomeSs.jpg">
+</div>
+
+#2 "Main"
+
+<div>
+<img src="./Screenshots/MainSs.jpg">
+</div>
+
+#3 "Game Over"
+
+<img src="./Screenshots/GameOverSs.jpg">
 </div>
