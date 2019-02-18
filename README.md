@@ -9,25 +9,39 @@ My newest addition, a counter, allows you to see your current score! I am planni
 
 Well, look no further, a WebGL-Version can be found [here](https://www.sharemygame.com/share/4d999891-01b0-47db-bcf8-b37e429d6a15). Do keep in mind however that this is optimised for Windows Standalone resulting in somewhat awkward borders.
 
-### Development Platform:
+The character can be controlled by either using the left and right arowkeys or the a and d keys, respectively.
 
+---
+### Specs:
+
+##### Development Platform: 
 Win 10
 
-### Unity version:
-
+##### Unity version:
 2018.2.18f1
 
-### Visual Studio Version: 
-
+##### Visual Studio Version: 
 15.9.4
 
-### Target Platform:
-
+##### Target Platform:
 Windows Standalone
+
+##### Scripting Runtime Version:
+.NET 3.5 Equivalent
+
+##### API compatibility Level:
+.NET 2.0 Subset
+
+##### Reference Resolution:
+1024px x 768px
+
+---
 
 ### Visuals: 
 
 like [so](https://www.cse.iitb.ac.in/~shrey/img/02.png) , except no bricks
+
+Note: The link above shows the firts version I had in mind, the current one can be seen at the very bottom of the readme. I am keeping this first visualisation nevertheless as it shows where I have drawn insipiration from.
 
 ### Fonts I've used:
 
@@ -77,19 +91,24 @@ At this point, the game was still called "BouncyBall". Additionally, the graphic
 
 Here, the updated graphics can be seen. The Screenshots are snippets straight from the final game.
 
-#1 | "Welcome"
+##### #1 | "Welcome"
 
 <div>
-<img src="./Screenshots/WelcomeSs.jpg">
+<img src="./Screenshots/WelcomeSs.JPG">
 </div>
 
-#2 "Main"
+##### #2 | "Main"
 
 <div>
-<img src="./Screenshots/MainSs.jpg">
+<img src="./Screenshots/MainSs.JPG">
 </div>
 
-#3 "Game Over"
+##### #3 | "Game Over"
 
-<img src="./Screenshots/GameOverSs.jpg">
+<div>
+<img src="./Screenshots/GameOverSs.JPG">
 </div>
+
+Additional Note: I've learnt to not underastimate simple things, even such that seem as foolproof as borders. take your time and plan accordingly.
+
+© by me
