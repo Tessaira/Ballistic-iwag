@@ -11,6 +11,9 @@ Well, look no further, a WebGL-Version can be found [here](https://www.sharemyga
 
 The character can be controlled by either using the left and right arowkeys or the a and d keys, respectively.
 
+
+Or, in case playing is not for you, [here](https://youtu.be/JGouoljsAEY)'s the trailer.
+
 ---
 ### Specs:
 
