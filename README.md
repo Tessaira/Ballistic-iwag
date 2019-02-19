@@ -44,7 +44,7 @@ Windows Standalone
 
 like [so](https://www.cse.iitb.ac.in/~shrey/img/02.png) , except no bricks
 
-Note: The link above shows the firts version I had in mind, the current one can be seen at the very bottom of the readme. I am keeping this first visualisation nevertheless as it shows where I have drawn insipiration from.
+Note: The link above shows the first version I had in mind, the current one can be seen at the very bottom of the readme. I am keeping this first visualisation nevertheless as it shows where I have drawn insipiration from.
 
 ### Fonts I've used:
 
@@ -85,7 +85,7 @@ implementation: done
 
 ### First Concept:
 
-At this point, the game was still called "BouncyBall". Additionally, the graphics have been altered in order to fit in with the games new and current name "Ballistic".
+At this point, the game was still called "BouncyBall". Additionally, the graphics have been altered in order to fit in with the game's new and current name "Ballistic".
 <div>
 <img src="./Screenshots/ConceptSs.jpeg">
 </div>
