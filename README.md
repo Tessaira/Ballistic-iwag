@@ -71,6 +71,8 @@ Note: The link above shows the first version I had in mind, the current one can 
 [game over trigger](https://www.youtube.com/watch?v=izl5VUm2Frk) 
 -pretty much self-explanatory
 
+Furthermore, the Ball code is from [smeerws](https://github.com/smeerws).
+
 ---
 
 progress - 105% finished
