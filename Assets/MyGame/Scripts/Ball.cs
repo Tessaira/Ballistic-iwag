@@ -17,19 +17,19 @@ public class Ball : MonoBehaviour
 
     void Update()
     {
-        if (!hasStarted)
+        if (!hasStarted) // geht nur bei start hierhin
         {
             hasStarted = true;
             myRigidBody2D.velocity = new Vector2(xPush, yPush);
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision) // immer bei collision
     {
-        Vector2 velocityTweak = new Vector2
+        Vector2 velocityTweak = new Vector2 // wenn auf true bei collision wird hinzugehfügt
                                  (UnityEngine.Random.Range(-randomFactor, randomFactor),
                                   UnityEngine.Random.Range(-randomFactor, randomFactor));
-        if (hasStarted)
+        if(hasStarted)
         {
             myRigidBody2D.velocity += velocityTweak;
         }

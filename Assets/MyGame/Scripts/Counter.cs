@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Counter : MonoBehaviour {
-
+public class Counter : MonoBehaviour 
+{
     private int hitCounter = 0;
     [SerializeField] Text counterText;
 	
@@ -14,7 +14,6 @@ public class Counter : MonoBehaviour {
         {
             hitCounter++;
             counterText.text = hitCounter.ToString();
-        }
-        
+        } 
     }
 }
