@@ -21,7 +21,7 @@ Or, in case playing is not for you, [here](https://youtu.be/JGouoljsAEY)'s the t
 Win 10
 
 ##### Unity version:
-2018.2.18f1
+2018.2.14f1
 
 ##### Visual Studio Version: 
 15.9.4
@@ -94,7 +94,7 @@ At this point, the game was still called "BouncyBall". Additionally, the graphic
 
 ### Final Implementation:
 
-Here, the updated graphics can be seen. The Screenshots are snippets straight from the final game.
+Here, the updated graphics can be seen. The screenshots are snippets straight from the final game.
 
 ##### #1 | "Welcome"
 
@@ -117,4 +117,10 @@ Here, the updated graphics can be seen. The Screenshots are snippets straight fr
 
 Additional Note: I've learnt to not underestimate simple things, even such that seem as foolproof as borders. Take your time and plan accordingly.
 
-© by me
+Also, I've learn't hoow to:
+
+- implement counters (CompareTag)
+- setup game
+- load scenes
+
+© by Tessaira
