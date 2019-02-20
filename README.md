@@ -4,25 +4,47 @@ The game Ballistic is a rather simple 2D Game. It consists of a ball and a platf
 
 My newest addition, a counter, allows you to see your current score! I am planning to expand this feature so you are also able to see that score in the game over screen.
 
-### Development Platform:
+--- 
+## Want to try the game?
 
+Well, look no further, a WebGL-Version can be found [here](https://www.sharemygame.com/share/4d999891-01b0-47db-bcf8-b37e429d6a15). Do keep in mind however that this is optimised for Windows Standalone resulting in somewhat awkward borders.
+
+The character can be controlled by either using the left and right arowkeys or the a and d keys, respectively.
+
+
+Or, in case playing is not for you, [here](https://youtu.be/JGouoljsAEY)'s the trailer.
+
+---
+### Specs:
+
+##### Development Platform: 
 Win 10
 
-### Unity version:
-
+##### Unity version:
 2018.2.18f1
 
-### Visual Studio Version: 
-
+##### Visual Studio Version: 
 15.9.4
 
-### Target Platform:
-
+##### Target Platform:
 Windows Standalone
+
+##### Scripting Runtime Version:
+.NET 3.5 Equivalent
+
+##### API compatibility Level:
+.NET 2.0 Subset
+
+##### Reference Resolution:
+1024px x 768px
+
+---
 
 ### Visuals: 
 
 like [so](https://www.cse.iitb.ac.in/~shrey/img/02.png) , except no bricks
+
+Note: The link above shows the first version I had in mind, the current one can be seen at the very bottom of the readme. I am keeping this first visualisation nevertheless as it shows where I have drawn insipiration from.
 
 ### Fonts I've used:
 
@@ -46,8 +68,10 @@ like [so](https://www.cse.iitb.ac.in/~shrey/img/02.png) , except no bricks
 [buttons](https://www.youtube.com/watch?v=WaDUUIo4iSw) 
 -used to start/retry game
 
-[gams over trigger](https://www.youtube.com/watch?v=izl5VUm2Frk) 
+[game over trigger](https://www.youtube.com/watch?v=izl5VUm2Frk) 
 -pretty much self-explanatory
+
+Furthermore, the Ball code is from [smeerws](https://github.com/smeerws).
 
 ---
 
@@ -59,6 +83,38 @@ concept: done
 
 implementation: done
 
+---
+
+### First Concept:
+
+At this point, the game was still called "BouncyBall". Additionally, the graphics have been altered in order to fit in with the game's new and current name "Ballistic".
 <div>
-<img src="./Screenshots/screenshot_screen2.jpeg">
+<img src="./Screenshots/ConceptSs.jpeg">
 </div>
+
+### Final Implementation:
+
+Here, the updated graphics can be seen. The Screenshots are snippets straight from the final game.
+
+##### #1 | "Welcome"
+
+<div>
+<img src="./Screenshots/WelcomeSs.JPG">
+</div>
+
+##### #2 | "Main"
+
+<div>
+<img src="./Screenshots/MainSs.JPG">
+</div>
+
+##### #3 | "Game Over"
+
+<div>
+<img src="./Screenshots/GameOverSs.JPG">
+</div>
+
+
+Additional Note: I've learnt to not underestimate simple things, even such that seem as foolproof as borders. Take your time and plan accordingly.
+
+© by me

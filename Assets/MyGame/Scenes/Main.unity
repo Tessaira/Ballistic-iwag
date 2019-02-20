@@ -113,6 +113,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &158258401
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,6 +176,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 6a5c21ac8bdb509f36a6e47ec4711e511d671220
 --- !u!1 &404990343
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,7 +830,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 4
+=======
+  m_RootOrder: 5
+>>>>>>> 6a5c21ac8bdb509f36a6e47ec4711e511d671220
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &990096335
 MonoBehaviour:
